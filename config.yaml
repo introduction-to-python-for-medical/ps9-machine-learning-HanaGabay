@@ -1,2 +1,2 @@
-path: "path_to_fixed_model.joblib
+path: "path_to_my_model(4).joblib"
 features: ['DFA', 'PPE']
