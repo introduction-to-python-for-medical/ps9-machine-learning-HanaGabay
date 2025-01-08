@@ -1,6 +1,6 @@
 import pandas as pd
 df = pd.read_csv('parkinsons.csv')
-features = ['HNR', 'DFA']
+features = ['DFA', 'PPE']
 target = 'status'
 x = df[features]
 y = df[target]
