@@ -19,3 +19,7 @@ y_pred = svm_model.predict(x_test)
 from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy}")
+
+import joblib
+
+joblib.dump(svm_model, 'my_model.joblib')
